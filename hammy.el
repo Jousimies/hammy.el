@@ -1081,7 +1081,7 @@ Suitable for inserting with `insert-image'."
                              :advance (do (announce "Time for a sit-down...")
                                           (notify "Time for a sit-down...")))))
 
-(hammy-define (propertize "🍅" 'face '(:foreground "tomato"))
+(hammy-define "Pomodoro"
   :documentation "The classic pomodoro timer."
   :intervals
   (list
